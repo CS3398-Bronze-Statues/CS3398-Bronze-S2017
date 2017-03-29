@@ -5,7 +5,7 @@ python:
  - "3.6"
 
 script:
- - python MainMenu.py "$(< MainMenuTest.txt)"
+ - python MainMenu.py < MainMenuTest.txt
  - python Character.py
 
 #before_install:
