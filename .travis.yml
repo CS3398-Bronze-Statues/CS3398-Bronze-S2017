@@ -7,3 +7,10 @@ python:
 script:
  - python MainMenu.py
  - python Character.py
+
+#before_install:
+# - pip install coverage
+#  - cd python
+
+#script:
+#  - nosetests -v --with-coverage
