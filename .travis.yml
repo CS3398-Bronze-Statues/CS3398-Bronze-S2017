@@ -5,7 +5,7 @@ python:
  - "3.6"
 
 script:
- - python MainMenu.py
+ - python MainMenu.py 4
  - python Character.py
 
 #before_install:
