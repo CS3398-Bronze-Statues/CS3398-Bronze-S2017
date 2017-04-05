@@ -1,12 +1,12 @@
 language: python
 
 python:
- - "2.7"
  - "3.6"
 
 script:
  - python MainMenu.py < MainMenuTest.txt
  - python Character.py
+ - python StringParser.py
 
 #before_install:
 # - pip install coverage
