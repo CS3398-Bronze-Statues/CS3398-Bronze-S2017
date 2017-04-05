@@ -4,9 +4,7 @@ python:
  - "3.6"
 
 script:
- - python MainMenu.py < MainMenuTest.txt
- - python Character.py
- - python StringParser.py
+ - sh tests.sh
 
 #before_install:
 # - pip install coverage
