@@ -9,6 +9,8 @@ shelfFile['character'] = save_character
 shelfFile['inventory'] = save_inventory
 shelfFile['zone'] = save_zone
 shelfFile['room'] = save_room
-"""WILL ADD MORE WHEN STORY IS FINISHED"""
+shelfFile['items'] = save_items
+shelfFile['health'] = save_health
+"""ADD MORE IF NECESSARY"""
 
 shelfFile.close()
