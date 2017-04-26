@@ -1,0 +1,9 @@
+2
+1
+go south
+go north
+save
+go north
+go south
+quit
+
