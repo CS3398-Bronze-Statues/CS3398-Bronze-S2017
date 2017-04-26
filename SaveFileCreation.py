@@ -9,6 +9,9 @@ from Character import Character
 Gets player info before saving. Used for instances where Save is in a file/module
 without any player info.
 """
+
+player_char = Character(" ", " ")
+
 def GetPlayerInfo(get_char):
     global player_char
     player_char = get_char
