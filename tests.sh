@@ -1,3 +1,3 @@
 echo "testing Character.py build"
-python code/Character.py
+python3 code/Character.py
 echo "done testing"
