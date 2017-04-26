@@ -1,11 +1,11 @@
-"""This parser is awaiting implementations of other aspects of the game in order to fully
-function.  It is a starting template for strings to parse.  Just need to add function calls
-based on the corresponding command detected."""
+"""Author:  Chris Carpenter
+   Contributor(s): Kevin Rodriguez"""
 from SaveFileCreation import Save
 from SaveFileCreation import GetPlayerInfo
 class StringParser(object):
     def __init__(self, maze):
         self.maze = maze
+        self.quit = False
 
     def parse(self, string):
         self.strings = string.split(" ")
@@ -16,6 +16,7 @@ class StringParser(object):
                 print("Saved the game.")
                 return True
             elif self.strings[i].lower() == "quit":
+                self.quit = True
                 print("Quit the game.")
                 return True
             elif self.strings[i].lower() == "move" or self.strings[i].lower() == "go"\
@@ -61,4 +62,5 @@ class StringParser(object):
                 or self.strings[i].lower() == "open" or \
                     (self.strings[i].lower() == "look" and self.strings[i+1].lower() == "at"):
                         #if item in zone or character list:
-                            print("Inspecting an item")
+                print("Inspecting an item")
+                return True
