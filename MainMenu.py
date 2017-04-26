@@ -1,5 +1,6 @@
 from Character import Character
-
+from SaveFileCreation import GetPlayerInfo
+from SaveFileCreation import Save
 import shelve
 
 class MainMenu(object):
@@ -27,13 +28,13 @@ class MainMenu(object):
                 print("This option starts a new game!\n")
                 
                 """
-                Saving here just makes sure that a save file is created.
-                Only has character data. 
+                Saving here makes sure that a new save file is created
+                for the new game. Basically starts on a blank slate and
+                erases previous data.
                 """
-                saveGameShelfFile = shelve.open('save_game_data')
-                saveGameShelfFile['character'] = self.character
-                saveGameShelfFile.close()
-                print("Saved your game!\n")
+                GetPlayerInfo(self.character)
+                Save()
+                print("New Save File Created!\n")
             elif(choice == str(2)):
                 print("This option loads a saved game!\n")
                 saveGameShelfFile = shelve.open('save_game_data')

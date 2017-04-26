@@ -1,6 +1,7 @@
 """This parser is awaiting implementations of other aspects of the game in order to fully
 function.  It is a starting template for strings to parse.  Just need to add function calls
 based on the corresponding command detected."""
+from SaveFileCreation import Save
 
 class StringParser(object):
     def __init__(self):
@@ -11,6 +12,7 @@ class StringParser(object):
 
         for i in range(0,len(self.strings)):
             if self.strings[i].lower() == "save":
+                Save()
                 print("Saved the game.")
                 return
             elif self.strings[i].lower() == "quit":
