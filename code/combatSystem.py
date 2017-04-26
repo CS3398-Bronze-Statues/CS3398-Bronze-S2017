@@ -7,7 +7,7 @@ class AttackSystem(object):
         if turn == 1:
             while loopx == False:
                     try:
-                            move = raw_input("Do you want to attack or run? Press 1 to ATTACK and 2 to REGEN. ")
+                            move = raw_input("Do you want to attack or regen? Press 1 to ATTACK and 2 to REGEN. ")
                             print ""
                             move = int(move)
                             if move == 1:
