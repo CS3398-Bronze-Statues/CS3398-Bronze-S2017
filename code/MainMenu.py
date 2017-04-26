@@ -1,3 +1,6 @@
+# Author:  Chris Carpenter
+# Contributor(s): Kevin Rodriguez
+
 from Character import Character
 from StringParser import StringParser
 from Maze import Maze
@@ -6,6 +9,7 @@ import shelve
 class MainMenu(object):
     def __init__(self):
         self.parser = None
+        self.loop = True
 
     def menu(self):
         while True:
@@ -27,7 +31,7 @@ class MainMenu(object):
                     print('\n\nThere is no previously saved game.\n')
             elif choice == str(3):
                 print("This is a text based adventure game!  You are trapped in a labyrinth and must escape to save\
-                 your people.  Type commands to play the game.\n")
+                 your people.  Type reasonable commands to play the game.\n")
             else:
                 break
 
@@ -41,7 +45,8 @@ class MainMenu(object):
                 print(self.parser.maze.output)
                 while self.parser.parse(input("What do you do?")) != True:
                     print("Try again...")
-
+                if self.parser.quit == True:
+                    break
 
 thing = MainMenu()
 thing.play()
