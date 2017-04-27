@@ -13,7 +13,7 @@ class AttackSystem:
             #While loop for health comparison
             while health > 0 and health1 > 0:
             if turn == 1:
-            while loopx == False:
+                while loopx == False:
                     try:
                             move = raw_input("Do you want to attack or run? Press 1 to ATTACK. ")
                             print ""
