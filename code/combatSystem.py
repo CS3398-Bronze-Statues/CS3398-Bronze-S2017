@@ -4,7 +4,7 @@ class AttackSystem:
     
     def turnAttack(Character, Monsters):
         def _init_(self):
-            self.turn = 0
+            #self.turn = 0
             self.damage = random.randint(2,20)
             self.damage1 = random.randint(1, 10)
             self.health = 50
@@ -23,10 +23,6 @@ class AttackSystem:
                                     health1 = health1 - damage
                                     print "You attacked!"
                                     loopx = True                        
-                            #elif move == 2:
-                            #        health = health+regen
-                            #        print "You regenerated health!"
-                            #        loopx = True
                             else:
                                     print "Invalid number, try again"
                                     continue
