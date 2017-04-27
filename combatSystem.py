@@ -1,23 +1,32 @@
 import random
 
-class AttackSystem(object):
+class AttackSystem:
     
-    def turnAttack(self, character):
-        while health > 0 and health1 > 0:
-        if turn == 1:
+    def turnAttack(Character, Monsters):
+        def _init_(self):
+            self.turn = 0
+            self.damage = random.randint(2,20)
+            self.damage1 = random.randint(1, 10)
+            self.health = 50
+            self.health1 = 30
+
+            #While loop for health comparison
+            while health > 0 and health1 > 0:
+            if turn == 1:
             while loopx == False:
                     try:
-                            move = raw_input("Do you want to attack or run? Press 1 to ATTACK and 2 to REGEN. ")
+                            move = raw_input("Do you want to attack or run? Press 1 to ATTACK. ")
                             print ""
                             move = int(move)
                             if move == 1:
+                                    #Take health away from monster
                                     health1 = health1 - damage
                                     print "You attacked!"
                                     loopx = True                        
-                            elif move == 2:
-                                    health = health+regen
-                                    print "You regenerated health!"
-                                    loopx = True
+                            #elif move == 2:
+                            #        health = health+regen
+                            #        print "You regenerated health!"
+                            #        loopx = True
                             else:
                                     print "Invalid number, try again"
                                     continue
@@ -27,13 +36,9 @@ class AttackSystem(object):
             turn = 2                                                    
 
     if turn == 2:
-            AImove = r.randint(1,2)
-            if AImove == 1:
+            AImove == 1:
                     print "AI attacked!"
                     health = health - damage1
-            else:
-                    print "AI regenerated!"
-                    health1 = health1+regen1
             turn = 1                                                    
             continue
 
