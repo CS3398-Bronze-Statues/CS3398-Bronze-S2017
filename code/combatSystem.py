@@ -33,7 +33,7 @@ class AttackSystem:
                     except:
                                     print "Invalid number, try again"
                                     continue
-            turn = 2                                                    
+                turn = 2                                                    
 
     if turn == 2:
             AImove == 1:
