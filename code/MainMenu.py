@@ -47,6 +47,3 @@ class MainMenu(object):
                     print("Try again...")
                 if self.parser.quit == True:
                     break
-
-thing = MainMenu()
-thing.play()
