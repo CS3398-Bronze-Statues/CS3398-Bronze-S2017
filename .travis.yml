@@ -5,7 +5,8 @@ python:
  - "3.6"
 
 script:
- - sh tests.sh
+ - sh testBuilds.sh
+ - sh testCases.sh
 
 #before_install:
 # - pip install coverage
