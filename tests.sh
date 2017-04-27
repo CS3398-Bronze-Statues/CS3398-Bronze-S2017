@@ -13,6 +13,6 @@ echo "testing StringParser.py build"
 python code/StringParser.py
 echo "testing Zones.py build"
 python code/Zones.py
-#echo "testing combatSystem.py build"
-#python code/combatSystem.py
+echo "testing combatSystem.py build"
+python code/combatSystem.py
 echo "done testing"
