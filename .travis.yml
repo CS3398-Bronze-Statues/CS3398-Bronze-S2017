@@ -1,4 +1,3 @@
-before script: cd code
 language: python
 
 python:
