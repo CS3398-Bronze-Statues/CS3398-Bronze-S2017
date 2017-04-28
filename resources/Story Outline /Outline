@@ -1,0 +1,31 @@
+Synopsis: This is a text-based adventure game that revolves around escaping from a dystopian country. You are part of a slave race. Your every activity is highly restricted and controlled, and you are closely monitored at all times. Escaping is nearly impossible. In order to make it out alive, you must seek out those who have information, determine whether you can trust them, and prove yourself worthy of their trust. However, you are forbidden from communicating with most people, and you can only access locations during times you are scheduled to be there.
+
+You start out in a room with a little info about yourself and your society. You know your goal is to escape the country. As you are moved from location to location doing your assigned work, you gather information, meet new people, and are able to pick up, examine, and place objects. As you enter rooms/locations, a description of that room/location is provided, including what you can see and who is there. In this description, certain words will be highlighted/bolded/colored, signifying that they are commands that may be used. Dialogue is directed by both multiple-choice options and the ability to use keywords that you have gathered up to that point in the game. You can check your list of keywords anytime you want. Game time is divided into days, and each day has a schedule that directs where you will be at any given time. You have an indefinite number of days to escape, and each day is the same by default.
+
+Characters:
+
+Other slaves that you might collaborate with (maybe also those that may betray you?)
+Perhaps an undercover agent that helps the slaves and poses as a slave master?
+
+Main Character:
+
+One thing we could do is have the user input their name and use that as a basis to refer to the protagonist. This, in a way, helps put the player in the shoes of their character.
+This doesn’t relate to the story (well, sort of) but, If we choose to do character classes, we could have the class relate to the area/division the protagonist was put in as a slave which would give them certain advantages/disadvantages. For example, a Laborer class gives the user enhanced strength which would give them an edge in battle. Or a Scavenger class would give the player an easier time finding items (but have less strength compared to the Laborer class).
+And/Or, they could have unique items. For example, a Laborer would have tools like a hammer or screwdriver. A Scavenger would have like a shovel and apparel that protects them from the terrain. These things would give each class a certain advantage.
+The main character could return back to their room/cell at the end of each day. (This time could be used to plan somehow for the next day?)
+Since everything is closely monitored, maybe one way the protagonist communicates with others is through gestures, code words/phrases, or symbols?
+The main character could be someone whose memory was wiped and discovers things as they go along.
+Or, they could also have a backstory already set from the start. 
+
+Vilain(s): 
+
+Slave masters (maybe as boss fights?)
+Slave guards (probably as common enemies?)
+Robotic enemies (like guards/sentinels if we decide a futuristic setting)
+Wild beasts (maybe genetically modified creatures trained to kill rebel slaves?)
+The leader of the dystopian country (final boss maybe?)
+
+NPC: 
+
+Other slave captives (maybe a group of secret rebel slaves?)
+

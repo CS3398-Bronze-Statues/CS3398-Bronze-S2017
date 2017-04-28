@@ -1,0 +1,16 @@
+language: python
+
+python:
+ - "3.6"
+
+script:
+ - sh testBuilds.sh
+ - sh testCases.sh
+
+#before_install:
+# - pip install coverage
+#  - cd python
+
+#script:
+#  - nosetests -v --with-coverage
+
