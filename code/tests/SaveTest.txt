@@ -1,0 +1,4 @@
+1
+move east
+save
+quit
